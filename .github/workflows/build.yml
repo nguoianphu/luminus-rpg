@@ -159,7 +159,7 @@ jobs:
           7z a -tzip -p${MY_ZIP_PASSWORD} keys.zip -r keys
 
       - name: Release
-        # if: startsWith(github.ref, 'refs/tags/')
+        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v1
         with:
           body_path: CHANGELOG.md
