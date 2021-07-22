@@ -1,0 +1,6 @@
+{
+  "appId": "com.nguoianphu.luminus",
+  "appName": "luminus",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
