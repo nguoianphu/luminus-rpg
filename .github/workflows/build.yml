@@ -192,7 +192,7 @@ jobs:
             ./web.zip
 
       - name: Build profuction for github pages
-        run: npx ng build --prod --base-href /luminus-rpg/
+        run: npm run build
 
       - name: Deploy app to web branch for github pages
         uses: s0/git-publish-subdir-action@develop
